@@ -1,0 +1,6 @@
+ EKF Localization
+Goal: Estimate the robot’s position in a known environment (with known landmark/map positions).
+
+The robot receives control inputs (like velocity, angular velocity) and noisy sensor measurements of known landmarks (range and bearing).
+
+The Extended Kalman Filter (EKF) fuses motion predictions and sensor updates to estimate the robot’s pose (position + orientation) with reduced uncertainty.
