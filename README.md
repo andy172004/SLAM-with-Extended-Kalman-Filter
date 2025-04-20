@@ -28,6 +28,8 @@ Without theory everything will go above the head.
 
 ## 📷 Output Preview
 Here is the final output of EKF-SLAM 
+
+
 ![WhatsApp Image 2025-04-19 at 20 27 21_05207c77](https://github.com/user-attachments/assets/43008c53-e458-40e6-bf76-c96e00e9d1f4)
 
 
