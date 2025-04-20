@@ -4,3 +4,5 @@ Goal: Estimate the robot’s position in a known environment (with known landmar
 The robot receives control inputs (like velocity, angular velocity) and noisy sensor measurements of known landmarks (range and bearing).
 
 The Extended Kalman Filter (EKF) fuses motion predictions and sensor updates to estimate the robot’s pose (position + orientation) with reduced uncertainty.
+
+Here there are 2 simulation filed Sim_range and sim_range_angle. One uses only distance to localize while other also consider the direction there by increasing accuracy in later.
