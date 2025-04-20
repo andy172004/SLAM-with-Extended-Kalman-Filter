@@ -1,0 +1,8 @@
+EKF SLAM (Simultaneous Localization and Mapping)
+Goal: Estimate both the robot’s pose and the positions of landmarks—simultaneously.
+
+This is the most challenging scenario: both the robot’s location and the map are unknown and uncertain.
+
+EKF SLAM builds a joint state vector that includes both the robot’s pose and landmark positions, and continuously updates both using motion and sensor data.
+
+The filter maintains the correlations between robot and landmark uncertainties, which is key to accuracy.
