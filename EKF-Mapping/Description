@@ -1,0 +1,8 @@
+EKF Mapping
+Goal: Estimate the positions of landmarks when the robot’s pose is known.
+
+The robot explores the environment and observes unknown landmarks using range-bearing sensors.
+
+Since the robot's pose is assumed to be accurately known, EKF is used to update estimates of the landmark locations only.
+
+Useful as an intermediate step to understand how observations refine map accuracy.
